@@ -1,0 +1,15 @@
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Release\QuickShare.Uninstaller.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Release\QuickShare.Uninstaller.pdb
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.Properties.Resources.resources
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.csproj.GenerateResource.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.csproj.CoreCompileInputs.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.pdb
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.csprojAssemblyReference.cache
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Release\QuickShare.Uninstaller.exe
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Release\QuickShare.Uninstaller.pdb
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.Properties.Resources.resources
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.csproj.GenerateResource.cache
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.csproj.CoreCompileInputs.cache
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.exe
+E:\Projects\A0-内部工具\04-Patcher-Installer\QuickShare.Patcher\QuickShare.Uninstaller\obj\Release\QuickShare.Uninstaller.pdb

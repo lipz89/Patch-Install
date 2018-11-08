@@ -1,0 +1,5 @@
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Debug\QuickShare.Uninstaller.Shell.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Debug\QuickShare.Uninstaller.Shell.pdb
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\obj\Debug\QuickShare.Uninstaller.Shell.csproj.CoreCompileInputs.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\obj\Debug\QuickShare.Uninstaller.Shell.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\obj\Debug\QuickShare.Uninstaller.Shell.pdb

@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Patcher", "QuickShare.Patcher\QuickShare.Patcher.csproj", "{21F048D7-7E56-4EA8-AFE4-67B10268F01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPatcher", "TestPatcher\TestPatcher.csproj", "{1EB86A66-3D7B-417C-A80D-6C0DC70D53F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Patch.Common", "QuickShare.Patch.Common\QuickShare.Patch.Common.csproj", "{F86184C2-95C4-40A1-9722-531DED0D7184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Installer", "QuickShare.Installer\QuickShare.Installer.csproj", "{ACD1FE38-1972-4B29-8542-6C0B48E1BB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Uninstaller", "QuickShare.Uninstaller\QuickShare.Uninstaller.csproj", "{96A8FA78-5817-46D9-B14D-A463DF96A9C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Uninstaller.Shell", "QuickShare.Uninstaller.Shell\QuickShare.Uninstaller.Shell.csproj", "{48B7D690-AB84-4952-A22A-C1B93E16EDED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96A8FA78-5817-46D9-B14D-A463DF96A9C3} = {96A8FA78-5817-46D9-B14D-A463DF96A9C3}
+		{71725BCC-AEB9-405E-B035-94A6A2F56A7B} = {71725BCC-AEB9-405E-B035-94A6A2F56A7B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Uninstaller.Core", "QuickShare.Uninstaller.Core\QuickShare.Uninstaller.Core.csproj", "{71725BCC-AEB9-405E-B035-94A6A2F56A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.ScriptPatcher", "QuickShare.ScriptPatcher\QuickShare.ScriptPatcher.csproj", "{1C250A31-A117-4392-9769-8B2B4EB00847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickShare.Patcher.IISPlugin", "QuickShare.Patcher.IISPlugin\QuickShare.Patcher.IISPlugin.csproj", "{3607F033-EC59-4589-B1D1-7958181E5A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F048D7-7E56-4EA8-AFE4-67B10268F01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F048D7-7E56-4EA8-AFE4-67B10268F01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F048D7-7E56-4EA8-AFE4-67B10268F01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F048D7-7E56-4EA8-AFE4-67B10268F01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB86A66-3D7B-417C-A80D-6C0DC70D53F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB86A66-3D7B-417C-A80D-6C0DC70D53F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB86A66-3D7B-417C-A80D-6C0DC70D53F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB86A66-3D7B-417C-A80D-6C0DC70D53F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86184C2-95C4-40A1-9722-531DED0D7184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86184C2-95C4-40A1-9722-531DED0D7184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86184C2-95C4-40A1-9722-531DED0D7184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86184C2-95C4-40A1-9722-531DED0D7184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD1FE38-1972-4B29-8542-6C0B48E1BB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD1FE38-1972-4B29-8542-6C0B48E1BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD1FE38-1972-4B29-8542-6C0B48E1BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD1FE38-1972-4B29-8542-6C0B48E1BB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A8FA78-5817-46D9-B14D-A463DF96A9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A8FA78-5817-46D9-B14D-A463DF96A9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A8FA78-5817-46D9-B14D-A463DF96A9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A8FA78-5817-46D9-B14D-A463DF96A9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B7D690-AB84-4952-A22A-C1B93E16EDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B7D690-AB84-4952-A22A-C1B93E16EDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B7D690-AB84-4952-A22A-C1B93E16EDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B7D690-AB84-4952-A22A-C1B93E16EDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71725BCC-AEB9-405E-B035-94A6A2F56A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71725BCC-AEB9-405E-B035-94A6A2F56A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71725BCC-AEB9-405E-B035-94A6A2F56A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71725BCC-AEB9-405E-B035-94A6A2F56A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C250A31-A117-4392-9769-8B2B4EB00847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C250A31-A117-4392-9769-8B2B4EB00847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C250A31-A117-4392-9769-8B2B4EB00847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C250A31-A117-4392-9769-8B2B4EB00847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3607F033-EC59-4589-B1D1-7958181E5A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3607F033-EC59-4589-B1D1-7958181E5A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3607F033-EC59-4589-B1D1-7958181E5A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3607F033-EC59-4589-B1D1-7958181E5A20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD130DB-9026-4A77-A639-1AFC7C792427}
+	EndGlobalSection
+EndGlobal

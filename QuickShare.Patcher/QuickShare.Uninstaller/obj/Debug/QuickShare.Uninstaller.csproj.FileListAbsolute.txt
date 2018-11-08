@@ -1,0 +1,10 @@
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\bin\Debug\QuickShare.Uninstaller.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\bin\Debug\QuickShare.Uninstaller.pdb
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Debug\QuickShare.Uninstaller.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller.Shell\bin\Debug\QuickShare.Uninstaller.pdb
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.csprojAssemblyReference.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.Properties.Resources.resources
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.csproj.GenerateResource.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.csproj.CoreCompileInputs.cache
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.exe
+E:\Projects\QuickShare.Patcher\QuickShare.Uninstaller\obj\Debug\QuickShare.Uninstaller.pdb

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21F048D7-7E56-4EA8-AFE4-67B10268F01D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuickShare.Patcher</RootNamespace>
+    <AssemblyName>QuickShare.Patcher</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>patcher.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SubForm\DlgPageItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgPageItem.Designer.cs">
+      <DependentUpon>DlgPageItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgPage.Designer.cs">
+      <DependentUpon>DlgPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgCommand.Designer.cs">
+      <DependentUpon>DlgCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgShortCut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgShortCut.Designer.cs">
+      <DependentUpon>DlgShortCut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgFolder.Designer.cs">
+      <DependentUpon>DlgFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgFile.Designer.cs">
+      <DependentUpon>DlgFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\DlgPagePlugins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\DlgPagePlugins.Designer.cs">
+      <DependentUpon>DlgPagePlugins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmPages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmPages.Designer.cs">
+      <DependentUpon>FrmPages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmShortCuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmShortCuts.Designer.cs">
+      <DependentUpon>FrmShortCuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmAppInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmAppInfo.Designer.cs">
+      <DependentUpon>FrmAppInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmCommands.Designer.cs">
+      <DependentUpon>FrmCommands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmComplete.Designer.cs">
+      <DependentUpon>FrmComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmDirectory.Designer.cs">
+      <DependentUpon>FrmDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmFiles.Designer.cs">
+      <DependentUpon>FrmFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmRun.Designer.cs">
+      <DependentUpon>FrmRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FrmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FrmWelcome.Designer.cs">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\IStep.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SubForm\DlgPageItem.resx">
+      <DependentUpon>DlgPageItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgPage.resx">
+      <DependentUpon>DlgPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgCommand.resx">
+      <DependentUpon>DlgCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgShortCut.resx">
+      <DependentUpon>DlgShortCut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgFolder.resx">
+      <DependentUpon>DlgFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgFile.resx">
+      <DependentUpon>DlgFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\DlgPagePlugins.resx">
+      <DependentUpon>DlgPagePlugins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmPages.resx">
+      <DependentUpon>FrmPages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmShortCuts.resx">
+      <DependentUpon>FrmShortCuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmAppInfo.resx">
+      <DependentUpon>FrmAppInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmCommands.resx">
+      <DependentUpon>FrmCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmComplete.resx">
+      <DependentUpon>FrmComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmDirectory.resx">
+      <DependentUpon>FrmDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmFiles.resx">
+      <DependentUpon>FrmFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmRun.resx">
+      <DependentUpon>FrmRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FrmWelcome.resx">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickShare.Patch.Common\QuickShare.Patch.Common.csproj">
+      <Project>{f86184c2-95c4-40a1-9722-531ded0d7184}</Project>
+      <Name>QuickShare.Patch.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="patcher.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
